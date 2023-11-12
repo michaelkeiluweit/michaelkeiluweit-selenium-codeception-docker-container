@@ -1,0 +1,5 @@
+.idea/
+app/vendor/
+app/composer.lock
+app/tests/_output
+app/tests/Support/_generated

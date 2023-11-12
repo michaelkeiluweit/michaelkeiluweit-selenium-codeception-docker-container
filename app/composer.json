@@ -1,0 +1,21 @@
+{
+    "name": "michaelkeiluweit/selenium-codeception",
+    "type": "project",
+    "authors": [
+        {
+            "name": "michaelkeiluweit"
+        }
+    ],
+    "require": {
+        "php-webdriver/webdriver": "^1.15"
+    },
+    "require-dev": {
+        "codeception/module-webdriver": "^4.0",
+        "codeception/codeception": "^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "MichaelKeiluweit\\SeleniumCodeception\\": "src/"
+        }
+    }
+}
