@@ -8,7 +8,7 @@ suites:
         modules:
             enabled:
                 - WebDriver:
-                    url: "http://localhost"
+                    url: "https://ee:ZEH6QrhGCJ@demoshop.oxid-esales.com"
                     host: localhost
                     port: 4444
                     path: ""
