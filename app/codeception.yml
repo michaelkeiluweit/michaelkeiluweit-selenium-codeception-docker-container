@@ -16,7 +16,8 @@ suites:
                     capabilities:
                         "goog:chromeOptions":
                             args: [ "--headless", "--disable-gpu", "--no-sandbox", "--disable-dev-shm-usage" ]
-                    window_size: 2000x1000 ]
+                    window_size: 2000x2000 ]
+                - Tests\Support\Helper\HandleCookie
 
         # add Codeception\Step\Retry trait to AcceptanceTester to enable retries
         step_decorators:
